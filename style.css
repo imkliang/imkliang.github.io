@@ -1,0 +1,21 @@
+#profile {
+    background-color:#3E2F19;
+    color: #ffffff;
+}
+#profile h2 {
+    color:#DDD7CE;
+}
+
+/* 設定了內容寬度的上限 */
+.inner {
+    max-width: 900px;
+    margin: 0 auto;  /* 左右置中 */
+}
+#html,#rwd{
+    max-width: 900px;
+    margin: 0 auto; /*  左右置中 */ 
+}
+/* #CSS調整了背景色 */
+#css{
+	background: #F7F1EB;
+}
