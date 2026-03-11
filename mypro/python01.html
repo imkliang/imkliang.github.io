@@ -1,0 +1,32 @@
+在 Python 中，map 函數是一個高階函數，用於對可迭代對象（如列表）中的每個元素應用指定的函數，然後返回一個由結果組成的迭代器。這是一個非常方便的工具，特別是當你想要對列表中的所有元素進行相同的操作時。
+
+使用方法
+基本語法：
+
+python
+複製程式碼
+map(function, iterable)
+function：要應用於每個元素的函數。
+iterable：要處理的可迭代對象（如列表、元組等）。
+返回值：map 返回一個迭代器，通常需要使用 list() 函數將其轉換為列表。
+
+範例
+以下是一些使用 map 的範例：
+
+範例 1：將列表中的每個數字平方
+python
+複製程式碼
+# 定義一個函數
+def square(x):
+    return x ** 2
+
+# 原始列表
+numbers = [1, 2, 3, 4, 5]
+
+# 使用 map 函數
+squared_numbers = map(square, numbers)
+
+# 將結果轉換為列表
+squared_list = list(squared_numbers)
+
+print(squared_list)  # 輸出: [1, 4, 9, 16, 25]
